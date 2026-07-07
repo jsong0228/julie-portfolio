@@ -1,0 +1,809 @@
+.col-sm {
+  margin-top: 0px;
+}
+
+.col-sm img {
+	width: 100%;
+	height: auto;
+
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact_img {
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 100px;
+}
+
+.copyright {
+  margin-top: 70px;
+}
+
+.mobile-margin1 {
+  margin-top: 50px;
+}
+
+.nav-link {
+  text-decoration: none;
+  background-color: transparent;
+  /* margin-top: 40px; */
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1.2px;
+  /* margin-top: -10px; */
+}
+
+.footer {
+    text-align: center;
+    color: #9c9c9c;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.headline {
+
+  font-family: 'Roboto Slab', serif;
+  font-weight: lighter;
+  margin-top: 60px;
+  margin-left: 15px;
+  width: 75%;
+}
+
+.info {
+  color: slategrey;
+  letter-spacing: .76px;
+  cursor: pointer;
+  line-height: 25px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.info:hover {
+  text-decoration: none;
+  color: black;
+
+}
+
+.info:nth-child(1) {
+  background: lightyellow;
+}
+
+.info:nth-child(2) {
+  background: lightyellow;
+}
+
+.info:nth-child(3) {
+  background: lightyellow;
+}
+
+.info:nth-child(1):hover {
+  background: lightcyan;
+}
+
+.info:nth-child(2):hover {
+  background: lightcyan;
+}
+
+.info:nth-child(3):hover {
+  background: lightcyan;
+}
+
+.info:nth-child(1):active {
+  background: lightcyan;
+}
+
+.info:nth-child(2):active {
+  background: lightcyan;
+}
+
+.info:nth-child(3):active {
+  background: lightcyan;
+}
+
+ul.nav {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.nav-item:nth-child(3) {
+    position: relative;
+    /* left: 55%; */
+    top: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Clarendon", serif;
+    margin-left: auto;
+}
+
+.logo img {
+  width: 150px;
+  position: relative;
+  top: -15px;
+}
+
+.menu-button {
+  font-size:25px;
+  cursor:pointer;
+  color: black;
+  padding-left: 15px;
+}
+
+.nav-link:nth-child(1), .nav-link:nth-child(2) {
+  color: slategrey;
+}
+.nav-item:nth-child(3) .nav-link:nth-child(1) {
+  color: black;
+  background-color: transparent;
+}
+.nav-link:nth-child(1):hover {
+    color: black;
+    background-color: lightyellow;
+  }
+
+.nav-link:nth-child(2):hover {
+  color:black;
+  background-color: lightyellow;
+}
+.nav-link:nth-child(1):active {
+    color: black;
+    background-color: lightcyan;
+  }
+
+.nav-link:nth-child(2):active {
+  color:black;
+  background-color: lightcyan;
+}
+
+.nav-item {
+  margin-left: -5px;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+}
+
+.form-group {
+  /* margin-left: 5px; */
+}
+
+.form-group:nth-child(1) {
+  margin-top: 30px;
+}
+
+.form-control {
+  border-radius: 0;
+  width: 450px;
+
+}
+
+label {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.btn {
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    padding: 10px 32px;
+    margin: 30px 5px;
+    cursor: pointer;
+    border-radius: 0;
+
+}
+
+.btn-primary {
+    color: black;
+    opacity: .8;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+  background-color: black;
+  opacity: 1;
+  color: white;
+  border: 3px solid black;
+}
+
+.logo img {
+  width: 150px;
+  position: relative;
+  top: -25px;
+}
+
+.slicknav_menu{
+	display: none;
+}
+#menu {
+  display: none;
+}
+
+#myNav {
+  display: none;
+}
+.container {
+  margin: 0 auto;
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1.2s ease;
+  background-color: white;
+}
+
+.project1 {
+  margin-top: 0px;
+}
+
+.project1:hover .overlay2 {
+  opacity: .9;
+}
+
+.project2:hover .overlay2 {
+  opacity: .9;
+}
+
+.project3:hover .overlay2 {
+  opacity: .9;
+}
+
+.project4:hover .overlay2 {
+  opacity: .9;
+}
+
+.project5:hover .overlay2 {
+  opacity: .9;
+}
+
+.project6:hover .overlay2 {
+  opacity: .9;
+}
+
+.text {
+  color: black;
+  font-family: "Raleway";
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.text2 {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Raleway";
+}
+
+.row {
+margin-right: 0 !important;
+margin-left: 0 !important;
+}
+
+@media (max-width: 1900px) {
+.mobile-margin1 {
+    margin-top: 0px;
+  }
+
+/*.mobile-margin3 {
+  margin-top: -60px;
+}*/
+
+.nav-link {
+  text-decoration: none;
+  background-color: transparent;
+  /* margin-top: 40px; */
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.header {
+  background-image: url("img/greensquare.png");
+  background-repeat: repeat-x;
+}
+.headline {
+
+  font-family: 'Roboto Slab', serif;
+  font-weight: lighter;
+  margin-top: 60px;
+  margin-left: 15px;
+  width: 75%;
+}
+
+.info {
+  color: slategrey;
+  letter-spacing: .76px;
+  cursor: pointer;
+  line-height: 25px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.info:hover {
+  text-decoration: none;
+  color: black;
+
+}
+
+.info:nth-child(1) {
+  background: lightyellow;
+}
+.info:nth-child(2) {
+  background: lightyellow;
+}
+.info:nth-child(3) {
+  background: lightyellow;
+}
+
+.info:nth-child(1):hover {
+  background: lightcyan;
+}
+.info:nth-child(2):hover {
+  background: lightcyan;
+}
+.info:nth-child(3):hover {
+  background: lightcyan;
+}
+
+.info:nth-child(1):active {
+  background: lightcyan;
+}
+.info:nth-child(2):active {
+  background: lightcyan;
+}
+.info:nth-child(3):active {
+  background: lightcyan;
+}
+.mobile-margin1 {
+  /* position: relative;
+  top: -30px; */
+}
+.mobile-margin2 {
+  position: relative;
+  /*top: -60px;*/
+}
+.nav-item:nth-child(3) {
+    position: relative;
+    /* left: 55%; */
+    top: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Clarendon", serif;
+    margin-left: auto;
+}
+
+.logo img {
+  width: 150px;
+  position: relative;
+  top: -22px;
+}
+
+.nav-link:nth-child(1), .nav-link:nth-child(2) {
+  color: slategrey;
+}
+.nav-item:nth-child(3) .nav-link:nth-child(1) {
+  color: black;
+  background-color: transparent;
+}
+.nav-link:nth-child(1):hover {
+    color: black;
+    background-color: lightyellow;
+  }
+
+.nav-link:nth-child(2):hover {
+  color:black;
+  background-color: lightyellow;
+}
+.nav-link:nth-child(1):active {
+    color: black;
+    background-color: lightcyan;
+  }
+
+.nav-link:nth-child(2):active {
+  color:black;
+  background-color: lightcyan;
+}
+
+.nav-item {
+  margin-left: -5px;
+}
+
+
+.form-group {
+  /* margin-left: 5px; */
+}
+
+.form-group:nth-child(1) {
+  margin-top: 30px;
+}
+
+.form-control {
+  border-radius: 0;
+  width: 450px;
+
+}
+
+label {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.btn {
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    padding: 10px 32px;
+    margin: 30px 5px;
+    cursor: pointer;
+    border-radius: 0;
+
+}
+
+.btn-primary {
+    color: black;
+    opacity: .8;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+  background-color: black;
+  opacity: 1;
+  color: white;
+  border: 3px solid black;
+}
+
+.slicknav_menu{
+	display: none;
+}
+#menu {
+  display: none;
+}
+
+#myNav {
+  display: none;
+}
+.container {
+  margin: 0 auto;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.project1 {
+  margin-top: 50px;
+}
+
+.project2 {
+  margin-top: 50px;
+}
+
+/*.project3 {
+  margin-top: 50px;
+}
+
+.project4 {
+  margin-top: 50px;
+}*/
+
+
+.project1:hover .overlay2 {
+  opacity: .9;
+}
+
+.project2:hover .overlay2 {
+  opacity: .9;
+}
+
+.project3:hover .overlay2 {
+  opacity: .9;
+}
+
+.project4:hover .overlay2 {
+  opacity: .9;
+}
+
+.project5:hover .overlay2 {
+  opacity: .9;
+}
+
+.project6:hover .overlay2 {
+  opacity: .9;
+}
+
+.project7:hover .overlay2 {
+  opacity: .9;
+}
+
+.project8:hover .overlay2 {
+  opacity: .9;
+}
+
+.project9:hover .overlay2 {
+  opacity: .9;
+}
+
+.project10:hover .overlay2 {
+  opacity: .9;
+}
+
+.projectPw:hover .overlay2 {
+  opacity: .9;
+}
+
+.projectLogo:hover .overlay2 {
+  opacity: .9;
+}
+.text {
+  color: black;
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text2 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Raleway";
+}
+}
+
+
+@media (max-width: 1199px) {
+  .order-section {
+    position: relative;
+    top: 70px;
+  }
+  .text {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text2 {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Raleway";
+  }
+
+}
+
+@media (max-width: 879px) {
+  .logo img {
+    width: 150px;
+    position: relative;
+    top: -25px;
+  }
+
+  .mobile-margin1 {
+    /* position: relative;
+    top: -50px; */
+}
+.mobile-margin2 {
+  position: relative;
+  /*top: -60px;*/
+}
+
+}
+/*Mobile View*/
+
+@media (max-width: 799px) {
+
+  .contact_img {
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 50px;
+  }
+  #myNav {
+		display: block;
+	}
+  .nav-item:nth-child(1){
+		display: none;
+	}
+  .nav-item:nth-child(2){
+    display: none;
+  }
+  .nav-item:nth-child(3) {
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+  }
+  .form-control {
+    width: 100%;
+  }
+  .project1 {
+    position: relative;
+    width: 100%;
+  }
+  .projectLogo {
+    position: relative;
+    width: 100%;
+  }
+ .prenext {
+   visibility: hidden;
+   background-color: transparent;
+ }
+  .text {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text2 {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Raleway";
+  }
+}
+
+@media (max-width: 576px) {
+  .col-sm {
+    margin-top: 5px;
+  }
+
+  .logo img {
+    width: 150px;
+    position: relative;
+    top: -25px;
+  }
+  .mobile-margin1 {
+    position: relative;
+    top: 25px;
+  }
+  .mobile-margin2 {
+    position: relative;
+    top: 25px;
+  }
+
+  .mobile-margin3 {
+    margin-top: 0px;
+    position: relative;
+    top: 26px;
+  }
+
+  .mobile-margin4 {
+    position: relative;
+    top: 27px;
+  }
+
+  .mobile-margin5 {
+    position: relative;
+    top: 27px;
+  }
+
+
+  .project1:active .overlay2 {
+    opacity: .9;
+  }
+
+  .project2 {
+    margin-top: 5px;
+  }
+
+  .project3 {
+    margin-top: 5px;
+  }
+
+  /*.project1 {
+    margin-top: 10px;
+  }*/
+  .project4 {
+    margin-top: 5px;
+  }
+
+  .project5 {
+    margin-top: 5px;
+  }
+
+  .project6 {
+    margin-top: 5px;
+  }
+
+  .project7 {
+    margin-top: 5px;
+  }
+
+  .project8 {
+    margin-top: 5px;
+  }
+
+
+/* Deep reset for the last 4 project layers on wide screens */
+.project7, .project8, .project9, .project10 {
+    position: relative !important;
+    display: block !important;
+}
+
+/* Force the overlay wrappers to perfectly match the visible image box */
+.project7 .overlay2, .project8 .overlay2, .project9 .overlay2, .project10 .overlay2 {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+    z-index: 999 !important;
+    opacity: 1 !important; /* Forces visibility to debug if it's a hover issue */
+}
+
+/* Force inner text positioning to center globally */
+.project7 .text, .project8 .textLogo, .project9 .text, .project10 .textPost {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 100% !important;
+    text-align: center !important;
+    display: block !important;
+    visibility: visible !important;
+}
+
+}

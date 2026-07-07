@@ -1,0 +1,24 @@
+.homeAnimation1 img {
+  width: 35%;
+  margin-right: 0;
+  margin-top: -150px;
+}
+
+@media (max-width: 576px) {
+  .homeAnimation1 img {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .homeAnimation3 img {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .homeAnimation3 img {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .homeAnimation4 img {
+    width: 70%;
+    margin: 0 auto;
+  }
+}

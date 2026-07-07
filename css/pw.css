@@ -1,0 +1,387 @@
+/*ORDERS*/
+
+.goback {
+  text-align: center;
+  position: relative;
+  top: 6px;
+}
+
+.goback a {
+  text-decoration: none;
+  color: #6c757d;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.goback a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: lightcyan;
+}
+
+.next {
+  text-align: right;
+}
+
+.next a {
+  text-decoration: none;
+  color: #6c757d;
+  /* background-color: lightyellow; */
+  font-weight: 600;
+}
+
+.next a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: lightcyan;
+}
+
+.material-icons {
+  font-size: 20px;
+  position: relative;
+  top: 6px;
+}
+
+.order-section {
+  position: relative;
+  top: 100px;
+}
+
+.order-notext {
+  visibility: hidden;
+}
+.previous a {
+  text-decoration: none;
+  color: #6c757d;
+  /* background-color: lightyellow; */
+  font-weight: 600;
+}
+
+.previous a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: lightcyan;
+}
+
+.prenext {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.pac-header {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* <==== ORDER */
+
+.bodytext {
+ margin: 0 auto;
+ position: relative;
+ top: 30px;
+ font-size: 19px;
+ line-height: 1.8;
+ font-weight: 300;
+ letter-spacing: .7px;
+ /* left: -10%; */
+}
+.bold {
+  font-weight: 600;
+}
+.caption {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: .7px;
+}
+.col-sm img {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+}
+
+.copyright {
+  position: relative;
+  top: 100px;
+}
+.currentWebsite {
+  background-color: #DFE7EC;
+  padding: 20px 50px 50px 50px;
+}
+.description a {
+  color: #212529;
+  background-color: lightyellow;
+  }
+.description a:hover {
+  color: #212529;
+  text-decoration: none;
+  background-color: lightcyan;
+}
+.description {
+  font-size: 13px;
+  font-weight: 100;
+  position: relative;
+  top: 30px;
+  right: 30px;
+}
+.descriptionbold {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.headerImg img {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+  font-family: 'Raleway';
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  /* background-color: lightyellow; */
+}
+
+.title {
+  font-family: 'Raleway';
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 2.2px;
+}
+
+p {
+  /* max-width: 550px; */
+}
+
+.pwLogo img {
+    width: 40%;
+    position: relative;
+    top: 20%;
+}
+.quotes {
+  font-family:'Roboto Slab', serif;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 1px;
+  /* max-width: 600px; */
+}
+.research {
+  background-color: #D2EEFF;
+  padding: 10px 50px 70px 50px;
+}
+.sectionTitle {
+  font-size: 22px;
+  font-family: 'RALEWAY';
+  font-weight: 400;
+  letter-spacing: 1.2PX;
+}
+.smallbodytext {
+ margin: 0 auto;
+ /* font-size: 19px; */
+ line-height: 1.8;
+ font-weight: 300;
+ letter-spacing: .7px;
+ position: relative;
+ top: 20px;
+ /* left: -10%; */
+}
+
+.logosmallbodytext {
+ margin: 0 auto;
+ /* font-size: 19px; */
+ line-height: 1.8;
+ font-weight: 300;
+ letter-spacing: .7px;
+ position: relative;
+ top: 150px;
+}
+
+.userProblem {
+  font-size: 19px;
+  line-height: 1.8;
+  font-weight: 300;
+  letter-spacing: .7px;
+  text-align: center;
+  width: 750px;
+  margin: 0 auto;
+  /* background-color: #EBF7FF; */
+  padding: 70px;
+  max-width: 800px;
+}
+.persona {
+  float: left;
+}
+.storyboard img {
+  /* width: 700px; */
+}
+.homepage {
+  width: 90%;
+}
+.sitemap img {
+  margin-bottom: 70px;
+}
+
+.sitemapMargin {
+  margin-top: 100px;
+
+}
+
+.styleguide img {
+  width: 80%;
+  margin: 0 auto;
+
+}
+.styleguideMargin {
+    margin-top: 300px;
+}
+
+.icontext {
+ margin: 0 auto;
+ /* font-size: 19px; */
+ line-height: 1.8;
+ font-weight: 100;
+ letter-spacing: .7px;
+ position: relative;
+ top: 20px;
+ /* left: -10%; */
+}
+
+.websiteMargin {
+  position: relative;
+  top: 180px;
+}
+
+
+@media (max-width: 991px) {
+.pwLogo img {
+    width: 60%;
+    position: relative;
+    top: 20%;
+}
+}
+
+@media (max-width: 799px) {
+/*ORDERS*/
+  .goback a {
+    text-decoration: none;
+    color: #6c757d;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .next a {
+    text-decoration: none;
+    color: #6c757d;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .next a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: lightcyan;
+  }
+
+  .material-icons {
+    font-size: 15px;
+    position: relative;
+    top: 6px;
+  }
+
+  .order-section {
+  visibility: hidden;
+  }
+
+  .order-notext {
+    visibility: visible;
+    position: relative;
+    top: 60px;
+  }
+  .previous a {
+    text-decoration: none;
+    color: #6c757d;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .previous a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: lightcyan;
+  }
+/*ORDERS*/
+
+  /* .previous {
+    visibility: hidden;
+  }
+
+  .next {
+    visibility: hidden;
+  } */
+}
+
+@media (max-width: 576px) {
+/*ORDERS*/
+  .order-section {
+    position: relative;
+    top: -95px;
+  }
+
+  .order-notext {
+    visibility: visible;
+    position: relative;
+    top: 30px;
+  }
+/*ORDERS*/
+  .headerImg img {
+      width: 100%;
+      margin: 0 auto;
+      height: auto;
+      display: block;
+      margin-top: -10px;
+      margin-bottom: 0px;
+  }
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  /* letter-spacing: .7px; */
+}
+
+.subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+   /* letter-spacing: .7px; */
+}
+
+.description {
+  font-size: 13px;
+  font-weight: 100;
+  position: relative;
+  top: 40px;
+  left: 2px;
+}
+
+.icontext {
+  position: relative;
+  top: 70px;
+}
+.pwLogo img {
+    width: 70%;
+    position: relative;
+}
+.storyboardPosition {
+  position: relative;
+  top: 50px;
+}
+.sitemapMargin {
+  margin-top: 40px;
+}
+}

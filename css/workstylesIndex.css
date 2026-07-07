@@ -1,0 +1,75 @@
+.col-sm {
+  margin-top: 50px;
+}
+
+.project1 {
+  position: relative;
+  padding: 5%;
+}
+
+.project2 {
+    padding-top: 4%;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.projectPw {
+    width: 105%;
+    padding-left: 3%;
+}
+
+.project4 {
+  top: 70px;
+}
+
+.col-sm img {
+	width: 100%;
+	height: auto;
+
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+}
+.project5 {
+  width: 80%
+
+}
+/*ipad view*/
+@media (max-width: 768px) {
+
+  .project1 {
+    position: relative;
+    padding: 5%;
+    padding-top: 8%;
+  }
+}
+
+
+/*Mobile View*/
+
+@media (max-width: 576px) {
+
+  .project1 {
+    position: relative;
+    padding: 5%;
+    padding-top: 15%;
+  }
+  .project2 {
+          width: 100%;
+          height: auto;
+          position: relative;
+          margin: 0 auto;
+  }
+  .projectPw {
+      width: 105%;
+      padding-left: 3%;
+      top: 60px
+  }
+  .projectMil {
+    top: 120px;
+  }
+}

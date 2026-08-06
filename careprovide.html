@@ -147,27 +147,32 @@
 
 
 
-<div class="row">
-  <div class="carousel-inner text-center">
-    <div class="carousel-item active">
-      <!-- The main image on your page -->
-      <img class="d-block w-10 logoHerdez1" src="care_provide_post.jpg" onclick="document.getElementById('zoomDialog').showModal()" style="cursor: zoom-in;" alt="Care Provide Detail View">
-    </div>
-  </div>
-</div>
+<div class="row"> 
+  <div class="carousel-inner text-center"> 
+    <div class="carousel-item active"> 
+      <!-- The main image --> 
+      <img class="d-block w-10 logoHerdez1" 
+           src="care_provide_post.jpg" 
+           onclick="this.closest('.carousel-item').querySelector('dialog').showModal()" 
+           style="cursor: zoom-in;" 
+           alt="Care Provide Detail View"> 
+           
+      <!-- The Zoom Overlay is now safely inside the same container -->
+      <dialog onclick="this.close()" style="border:none; background:transparent; padding:0; outline:none; max-width:90vw; max-height:90vh;"> 
+        <img src="care_provide_post.jpg" style="cursor: zoom-out; max-width:100%; max-height:90vh; display:block; margin:auto; box-shadow: 0 10px 40px rgba(0,0,0,0.15); border-radius: 8px;"> 
+      </dialog>
+    </div> 
+  </div> 
+</div> 
 
-<!-- Invisible Same-Page Zoom Overlay -->
-<dialog id="zoomDialog1" onclick="this.close()" style="border:none; background:transparent; padding:0; outline:none; max-width:90vw; max-height:90vh;">
-  <img src="care_provide_post.jpg" style="cursor: zoom-out; max-width:100%; max-height:90vh; display:block; margin:auto; box-shadow: 0 10px 40px rgba(0,0,0,0.15); border-radius: 8px;">
-</dialog>
-
-<style>
-  /* Darkens the background smoothly behind the zoomed image */
-  #zoomDialog::backdrop {
-    background-color: rgba(255, 255, 255, 0.95); /* Clean white tint with 95% opacity */
-    backdrop-filter: blur(2px); /* Adds a soft blur effect to your text underneath */
-  }
+<style> 
+  /* Targets all dialog backdrops globally so you don't need IDs here either */
+  dialog::backdrop { 
+    background-color: rgba(255, 255, 255, 0.95); 
+    backdrop-filter: blur(2px); 
+  } 
 </style>
+
 
 
     <div class="row">
